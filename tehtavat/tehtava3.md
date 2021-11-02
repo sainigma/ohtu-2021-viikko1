@@ -5,6 +5,6 @@
  - [x] Lisää tmp-päätteisiä tiedostoja hakemistoon ja varmista että git jättää ne huomioimatta
  - [x] Lisää myös hakemisto nimeltä ___pycache___ ja hakemiston sisälle joku tiedosto. Varmista että hakemisto sisältöineen ei mene versionhallinnan alaisuuteen
  - [x] Lisää ja commitoi _.gitignore_-tiedosto repositorioosi
- - [ ] Tee muutos johonkin tiedostoon. Älä lisää tiedostoa “staging”-alueelle
- - [ ] Tee muutos ja lisää tiedosto “staging”-alueelle
- - [ ] Tee muutoksia muutamiin tiedostoihin ja lisää muutokset staging-alueelle komennon git add -p avulla
+ - [x] Tee muutos johonkin tiedostoon. Älä lisää tiedostoa “staging”-alueelle
+ - [x] Tee muutos ja lisää tiedosto “staging”-alueelle
+ - [x] Tee muutoksia muutamiin tiedostoihin ja lisää muutokset staging-alueelle komennon git add -p avulla
