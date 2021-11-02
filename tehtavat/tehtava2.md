@@ -1,6 +1,6 @@
  - [x] Mene edellisessä tehtävässä luotuun repositorion klooniin (eli komennon `git clone` luomaan hakemistoon)
  - [x] Lisää ja committaa repositorioon kaksi tiedostoa ja kaksi hakemistoa, joiden sisällä on tiedostoja
- - [ ] Muuta ainakin kahden tiedoston sisältöä ja committaa muutokset repositorioon
+ - [x] Muuta ainakin kahden tiedoston sisältöä ja committaa muutokset repositorioon
  - [ ] Tee _.gitignore_-tiedosto, jossa määrittelet, että repositorion juurihakemistossa olevat tiedostot, joiden pääte on _tmp_ ja hakemistot joiden nimi on ___pycache___ ja _.pytest_cache_ ignoroidaan
  - [ ] Lisää tmp-päätteisiä tiedostoja hakemistoon ja varmista että git jättää ne huomioimatta
  - [ ] Lisää myös hakemisto nimeltä ___pycache___ ja hakemiston sisälle joku tiedosto. Varmista että hakemisto sisältöineen ei mene versionhallinnan alaisuuteen
