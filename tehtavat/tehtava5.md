@@ -1,0 +1,2 @@
+ - [x] Kloonaus, sen muokkaus ja pushaus
+ - [ ] Pullaus, muokkaus ja pushaus
