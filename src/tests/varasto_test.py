@@ -46,15 +46,18 @@ class TestVarasto(unittest.TestCase):
         # testataan, että varastosta liikaa ottaminen ei laske saldoa negatiiviseksi
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
-    def virheellinen_alustus(self, tilavuus, saldo):
+    def alustus(self, tilavuus, saldo):
         varasto2 = Varasto(tilavuus, saldo)
         self.assertGreaterEqual(varasto2.tilavuus, 0)
         self.assertGreaterEqual(varasto2.saldo, 0)
         self.assertGreaterEqual(varasto2.tilavuus, varasto2.saldo)
 
+    def test_ok_alustus(self):
+        self.alustus(11, 10)
+
     def test_virheellinen_alustus(self):
-        self.virheellinen_alustus(-1, -1)
-        self.virheellinen_alustus(10,11)
+        self.alustus(-1, -1)
+        self.alustus(10,11)
 
     def test_virheellinen_otto(self):
         self.assertAlmostEqual(self.varasto.ota_varastosta(-1), 0)
